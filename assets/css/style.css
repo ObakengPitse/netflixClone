@@ -24,3 +24,38 @@
   background: rgba(0, 0, 0, 0.6);
   box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
+
+/*Navbar*/
+.topNavbar {
+  position: relative;
+  z-index: 2;
+  padding: 26px 0px 0px 55px;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+.topNavbar #logo {
+  height: 35px;
+}
+
+.topNavbar .submit {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 5px 16px;
+  border-radius: 3px;
+  float: right;
+  position: relative;
+  right: 55px;
+}
+.topNavbar select {
+  background-color: transparent;
+  color: white;
+  border-radius: 3px;
+  padding: 5px 10px;
+  float: right;
+  position: relative;
+  right: 85px;
+}
+.topNavbar select option {
+  color: black;
+}
