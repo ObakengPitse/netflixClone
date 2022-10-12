@@ -13,7 +13,7 @@
     center/cover;
 }
 
-.banner::after {
+.banner::before {
   content: "";
   position: absolute;
   top: o;
@@ -29,9 +29,7 @@
 .topNavbar {
   position: relative;
   z-index: 2;
-  padding: 26px 0px 0px 55px;
-  background: rgba(0, 0, 0, 0.6);
-  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+  padding: 26px 0px 15px 55px;
 }
 .topNavbar #logo {
   height: 35px;
@@ -59,3 +57,43 @@
 .topNavbar select option {
   color: black;
 }
+
+/*get started*/
+.banner .getStarted {
+  z-index: 2;
+  position: relative;
+  text-align: center;
+  position: relative;
+  top: 180px;
+  width: 100%;
+}
+.banner .getStarted h1,
+p {
+  color: white;
+}
+.banner .getStarted h1 {
+  font-size: 3.9rem;
+}
+.banner .getStarted .para1 {
+  font-size: 1.7rem;
+}
+.banner .getStarted .para2 {
+  font-size: 1.2rem;
+}
+.banner .getStarted input {
+  width: 35%;
+  padding: 22px;
+  border: none;
+  margin-top: 0.5%;
+  outline: none;
+}
+.banner .getStarted button {
+  padding: 22px;
+  border: none;
+  background-color: #e50914;
+  color: white;
+  margin-left: -0.3%;
+  font-weight: bold;
+}
+
+/*Mwedia queries*/
