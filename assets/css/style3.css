@@ -3,7 +3,27 @@
 * {
   box-sizing: border-box;
 }
-
+#homeLogo {
+  width: 200px;
+  position: relative;
+  left: -950px;
+  padding: 10px 0 0 0;
+}
+.logoutBtn {
+  background-color: white;
+  color: red;
+  border: none;
+  padding: 5px 16px;
+  border-radius: 3px;
+  float: right;
+  position: relative;
+  right: 35px;
+  border: 2px solid black;
+}
+.logoutBtn:hover {
+  background-color: red;
+  color: white;
+}
 :root {
   --primary-color: #000000;
   --secondary-color: red;
